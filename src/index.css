@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #E5E5E5;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 868px;
+  width: 550px;
+  background: #23252C;
+
+
+}
+
+h1 {
+  color: #ffff;
+  font-size: 25px;
+  margin-bottom: -10px;
+}
+
+h2 {
+  color: #F5F5F5;
+  font-size: 16px;
+  margin: 30px;
+  margin-bottom: 5px;
+}
+
+h3 {
+  color: #F3BF99;
+  font-size: 12.8px;
+}
+
+h4 {
+  color: #F5F5F5;
+  font-size: 10.24px;
+}
+
+
+.email-btn {
+  padding: 9px 13px;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  position: relative;
+  left: 11%;
+}
+
+p {
+  color: #DCDCDC;
+  font-size: 10.24px;
+  margin: 5px 30px;
+  line-height: 1.5;
+}
+
+.top {
+  background: #1A1B21;
+  width: 317px;
+}
+
+img{
+  border-radius: 10px 10px 0px 0px;
+}
+
+.about {
+  width: 317px;
+  text-align: left;
+  background: #1A1B21;
+
+}
+
+footer {
+  width: 317px;
+  height: 64px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+}
